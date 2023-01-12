@@ -1,6 +1,7 @@
 import HeaderTagsOrganism from "@/containers/organisms/HeaderTags/HeaderTags.organism";
+import { LoginTemplate } from "@/containers/templates/Login/Login.template";
 
-import styles from "../styles/Home.module.css";
+import styles from "../styles/general.module.css";
 
 export default function Home() {
   return (
@@ -9,7 +10,9 @@ export default function Home() {
         title="Login | Tech Mahindra: Frontend Test"
         description="Login Prueba desarrollo Frontend Tech Mahindra"
       />
-      <main className={styles.main}></main>
+      <main className={styles.main}>
+          <LoginTemplate/>
+      </main>
     </>
   );
 }

@@ -15,7 +15,7 @@ const WithPrivateRoute = (props: any) => {
     const lcStorge = window?.localStorage || null;
     const clearSession = () => {
       localStorage.clear();
-      router.push("/login");
+      // router.push("/login");
     };
     if (lcStorge === null || lcStorge.getItem("usT") === null) {
       clearSession();
@@ -26,10 +26,12 @@ const WithPrivateRoute = (props: any) => {
       );
       return response;
     };
-    const result = checkSession().catch(() => {
-      clearSession();
+    const result = checkSession().then( (resp) => {
+      console.log("respuesta", resp)
+    } ).catch(() => {
+      console.log("Result", result);
     });
-    console.log("Result", result);
+    
   }, []);
 
   return <WithPrivateRouteContext.Provider value={{}} />;

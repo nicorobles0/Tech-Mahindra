@@ -26,7 +26,8 @@
 			"@/molecules/*": ["src/components/molecules/*"],			
 			"@/organisms/*": ["src/containers/organisms/*"],			
 			"@/types/*": ["src/types/*"],			
-			"@/mocks/*": ["src/mocks/*"]			
+			"@/mocks/*": ["src/mocks/*"],
+      "@/core/*": ["src/core/*"]
 		},
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
