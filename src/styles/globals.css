@@ -5,6 +5,10 @@
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 255, 255, 255;
   --background-end-rgb: 255, 255, 255;
+  --background-contrast: rgb(244, 244, 244);
+  --color-primary: #007cff;
+  --color-secondary: #a9cbff;
+  --white: #fff;
 }
 
 * {
@@ -41,7 +45,7 @@ h2{
   font-size: 1rem;
 }
 h5 {
-  font-size: 12px;
+  font-size: .8rem;
   font-weight: 600;
 }
 

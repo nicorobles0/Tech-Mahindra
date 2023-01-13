@@ -1,0 +1,87 @@
+{
+    "head": [
+        {
+            "name": "ID",
+            "width": "5%"
+        },
+        {
+            "name": "Nombres",
+            "width": "20%"
+        },
+        {
+            "name": "Dirección",
+            "width": "15%"
+        },
+        {
+            "name": "Fecha",
+            "width": "15%"
+        },
+        {
+            "name": "Edad",
+            "width": "15%"
+        },
+        {
+            "name": "Estado",
+            "width": "10%"
+        },
+        {
+            "name": "Rol",
+            "width": "10%"
+        }
+    ],
+    "body": [
+        {
+            "id": "12345",
+            "names": "Andres Nicolas",
+            "address": "Calle falsa 1",
+            "date": "16/11/1996",
+            "age": "25",
+            "state": "Active",
+            "role": "Developer"
+        },
+        {
+            "id": "12345",
+            "names": "Andres Nicolas",
+            "address": "Calle falsa 1",
+            "date": "16/11/1996",
+            "age": "25",
+            "state": "Active",
+            "role": "Developer"
+        },
+        {
+            "id": "12345",
+            "names": "Andres Nicolas",
+            "address": "Calle falsa 1",
+            "date": "16/11/1996",
+            "age": "25",
+            "state": "Active",
+            "role": "Developer"
+        },
+        {
+            "id": "12345",
+            "names": "Andres Nicolas",
+            "address": "Calle falsa 1",
+            "date": "16/11/1996",
+            "age": "25",
+            "state": "Active",
+            "role": "Developer"
+        },
+        {
+            "id": "12345",
+            "names": "Andres Nicolas",
+            "address": "Calle falsa 1",
+            "date": "16/11/1996",
+            "age": "25",
+            "state": "Active",
+            "role": "Developer"
+        },{
+            "id": "12345",
+            "names": "Andres Nicolas",
+            "address": "Calle falsa 1",
+            "date": "16/11/1996",
+            "age": "25",
+            "state": "Active",
+            "role": "Developer"
+        }
+    ]
+}

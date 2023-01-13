@@ -11,18 +11,19 @@ const WithPrivateRouteContext = createContext<any>(null);
 const WithPrivateRoute = (props: any) => {
   
   const router = useRouter();
+  console.log('holandas')
   useEffect(() => {
     const lcStorge = window?.localStorage || null;
     const clearSession = () => {
       localStorage.clear();
-      // router.push("/login");
+      //router.push("/login");
     };
     if (lcStorge === null || lcStorge.getItem("usT") === null) {
       clearSession();
     }
     const checkSession = async () => {
       const response = await axios.get(
-        `/api/user?tok=${localStorage.getItem("usT")}`
+        `/api/loginUser?tok=${localStorage.getItem("usT")}`
       );
       return response;
     };
@@ -34,6 +35,6 @@ const WithPrivateRoute = (props: any) => {
     
   }, []);
 
-  return <WithPrivateRouteContext.Provider value={{}} />;
+  return <WithPrivateRouteContext.Provider value={{}}> {props?.children} </WithPrivateRouteContext.Provider>;
 };
 export {WithPrivateRouteContext, WithPrivateRoute};

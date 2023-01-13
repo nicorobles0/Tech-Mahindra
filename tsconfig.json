@@ -30,6 +30,11 @@
       "@/core/*": ["src/core/*"]
 		},
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "src/styles/global/Fonts.style.js"
+  ],
   "exclude": ["node_modules"]
 }

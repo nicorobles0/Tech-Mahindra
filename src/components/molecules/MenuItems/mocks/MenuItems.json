@@ -1,0 +1,22 @@
+[
+    {
+        "url": "/dashboard",
+        "text": "Inicio"
+    },
+    {
+        "url": "/#",
+        "text": "Menu Item 2"
+    },
+    {
+        "url": "/#",
+        "text": "Menu Item 3"
+    },
+    {
+        "url": "/#",
+        "text": "Menu Item 4"
+    },
+    {
+        "url": "/#",
+        "text": "Menu Item 5"
+    }
+]

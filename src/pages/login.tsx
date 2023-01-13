@@ -1,4 +1,4 @@
-import HeaderTagsOrganism from "@/containers/organisms/HeaderTags/HeaderTags.organism";
+import HeaderTagsOrganism from "@/containers/organisms/HeaderTags/HeaderTags";
 import { LoginTemplate } from "@/containers/templates/Login/Login.template";
 
 import styles from "../styles/general.module.css";

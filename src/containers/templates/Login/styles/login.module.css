@@ -27,7 +27,7 @@
   padding-bottom: 40px;
 }
 .titleContainer h1 {
-  color: #a9cbff;
+  color: var(--color-secondary);
   font-size: 30px;
   font-weight: 600;
 }
@@ -78,7 +78,7 @@
   border-radius: 50px;
   outline: none;
   border: none;
-  background-color: #007cff;
+  background-color: var(--color-primary);
   background-size: 200%;
   font-size: 1.2rem;
   color: #fff;

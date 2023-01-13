@@ -1,0 +1,30 @@
+[
+    {
+        "img": "/assets/icons/chat.png",
+        "name": "Chat",
+        "isAnimated": false,
+        "isSeacrh": false,
+        "isRounde": false
+    },
+    {
+        "img": "/assets/icons/clock.png",
+        "name": "Clock",
+        "isAnimated": false,
+        "isSeacrh": false,
+        "isRounde": false
+    },
+    {
+        "img": "/assets/icons/notification.png",
+        "name": "Notification",
+        "isAnimated": true,
+        "isSeacrh": false,
+        "isRounde": false
+    },
+    {
+        "img": "/assets/icons/avatar.png",
+        "name": "Avatar",
+        "isAnimated": false,
+        "isSeacrh": false,
+        "isRounde": true
+    }
+]
